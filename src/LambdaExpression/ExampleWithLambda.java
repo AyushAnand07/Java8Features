@@ -11,7 +11,7 @@ class tryDisplay1
 {
 public static void main(String args[])throws IOException
 {
-    // Display1 a = new Display1() {           (Until java & implementation of interface directly)
+    // Display1 a = new Display1() {           (Until java7 implementation of interface directly)
  //       @Override
  //       public void display() {
   //          System.out.println("Hello");
