@@ -13,7 +13,8 @@ public class SortPrintDouble {
                 .filter(n->n%2==1)       //returns true or false boolean values to proceed further accordingly
                 .sorted()
                 .map(m->m*2)
-                .forEach(s->System.out.println(s));       //Total 4 streams are created
+                .forEach(System.out::println); //Can also use Method reference sysout instead of lambda sysout
+//                .forEach(s->System.out.println(s));       //Total 4 streams are created
 
 
 //        int result = ls.stream()

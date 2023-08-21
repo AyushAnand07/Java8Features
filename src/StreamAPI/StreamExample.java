@@ -1,4 +1,7 @@
 package StreamAPI;
+//Java streams represent a pipeline through which data will flow and the functions to operate on the data.
+//A pipeline consists of a stream source, followed by zero or more intermediate operations, and a terminal operation.
+
 
 import java.io.IOException;
 import java.sql.Array;
