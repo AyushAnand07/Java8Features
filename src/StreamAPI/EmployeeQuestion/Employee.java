@@ -1,4 +1,4 @@
-package StreamAPI.EmployeeQuestions;
+package StreamAPI.EmployeeQuestion;
 
 public class Employee {
 

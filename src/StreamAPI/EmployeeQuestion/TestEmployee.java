@@ -1,4 +1,4 @@
-package StreamAPI.EmployeeQuestions;
+package StreamAPI.EmployeeQuestion;
 //Sort employees based on salary in descending order
 //Fetch top 3 salary employee details
 import java.util.ArrayList;
@@ -18,8 +18,7 @@ public class TestEmployee {
        // List<Employee> ep= employeeList.stream().sorted((o1, o2) -> o2.getSalary()- o1.getSalary()).collect(Collectors.toList());
 
         //limit() helps us to get values from index 0 < N
-        List<Employee> ep= employeeList.stream().sorted((o1, o2) -> o2.getSalary()- o1.getSalary()).limit(3).collect(Collectors.toList());
-
+       List<Employee> ep= employeeList.stream().sorted((o1, o2) -> o2.getSalary()- o1.getSalary()).limit(3).collect(Collectors.toList());
         System.out.println(ep);
     }
 }
