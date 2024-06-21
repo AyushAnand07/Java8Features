@@ -9,7 +9,7 @@ public class AverageOfNumberInArrayList {
     {
         List<Integer> arr = Arrays.asList(2,6,4,8,9);
         //mapToInt converts each stream object into int before it can calculate average
-        OptionalDouble sum = arr.stream().mapToInt(n->n).average();
-        System.out.println(sum.getAsDouble());
+        Double sum = arr.stream().mapToInt(n->n).average().getAsDouble();
+        System.out.println(sum);
     }
 }

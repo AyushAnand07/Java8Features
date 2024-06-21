@@ -16,5 +16,4 @@ public class OddEven {
         System.out.println(odd);
 
     }
-
 }
