@@ -18,9 +18,7 @@ public static void main(String args[])throws IOException
   //      }
   //  };
     Display1 a = ()->   //Java 8 lambda expression. Java can understand after = part as there is only 1 method in functional interface
-    {
-        System.out.println("Hello");
-    };
+            System.out.println("Hello");
     a.display();
 }
 }

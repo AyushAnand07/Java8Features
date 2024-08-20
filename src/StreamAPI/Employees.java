@@ -153,5 +153,8 @@ public class Employees {
         //Find the highest rank in each department
         Map<String, Optional<Employees>> n =employeesList.stream().collect(Collectors.groupingBy(Employees::getDepartment,Collectors.minBy(Comparator.comparing(Employees::getDepartment))));
         System.out.println(n);
+
+        //Calculate Sum of any values column by below reduction method
+        OptionalDouble sum =employeesList.stream().mapToDouble(Employees::getId).reduce(Double::sum);
     }
 }

@@ -17,7 +17,7 @@ interface df
 public class Default_Static implements df{
     public static void main(String []args)
     {
-        df.sayHello();
+        df.sayHello();  //accessing by interface name since its only way to access that method as class cant see static methods of interface
         Default_Static defaultStatic= new Default_Static();
         defaultStatic.sayBye();
     }

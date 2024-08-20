@@ -8,7 +8,7 @@ import java.io.IOException;
     public static void main(String a[])throws IOException
     {
         String str = "Hey";
-        Optional<String> stringOptional = Optional.ofNullable(str);
+        Optional<String> stringOptional = Optional.of(str);
         System.out.println(stringOptional.get());
     }
 }
